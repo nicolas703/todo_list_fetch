@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+.libreta{
+    width: 613px;
+    height: 630px;
+    margin-left: 29%;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+  .nota{
+      padding: 2%;
+      height: 30px;
+      width: 470px;
+      font-size: 24px;
+      font-family: sans-serif;
+      margin: 1px;
+      border: none;
+      font-family: 'Chilanka', cursive;
+  }
+
+  .trash{
+      width: 56px;
+      height: 56px;
+      padding: 2%;
+      background-color: white;
+      border: none;
+      border-radius: 100%;
+      font-family: 'Chilanka', cursive;
+    }
+
+   .agg{
+    width: 56px;
+    height: 56px;
+    padding: 2%;
+    background-color: white;
+    border: none;
+    border-radius: 100%;
+    font-family: 'Chilanka', cursive;
+    font-size: 20px;
+    margin-right: 2px;
+   }
+
+.dib{
+    display: inline-flex;
+    -webkit-box-shadow: 0px 0px 44px 18px rgba(0,0,0,0.23);
+    -moz-box-shadow: 0px 0px 44px 18px rgba(0,0,0,0.23);
+    box-shadow: 0px 0px 44px 18px rgba(0,0,0,0.23);
+    flex-direction: column;
+    
+}
+
+.trash:hover {
+    background-color: rgb(230, 228, 228);
+  }
+
+  .notarea{
+      display: flex;
+      width: 100px;
+  }
+
+  .pa{
+      margin-right: 20px;
+      margin-left: 20px;
+      display: block ruby;
+      font-family: 'Chilanka', cursive;
+  }
+
+  .pa:hover{
+      color: rgb(121, 121, 121);
+  }
+
+  .titulo{
+      padding-left: 41%;
+      font-size: 50px;
+      color: rgb(207, 207, 207);
+      font-family: 'Chilanka', cursive;
+  }
+  .agg:hover{
+    background-color: rgb(230, 228, 228);
+  }
